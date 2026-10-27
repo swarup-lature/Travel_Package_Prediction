@@ -1,4 +1,4 @@
-# Traval_Package Prediction
+# Travel_Package_Prediction
 
 An end-to-end Machine Learning classification pipeline built to predict whether a customer will purchase a travel package based on demographic, behavioral, and engagement metrics.
 
