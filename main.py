@@ -108,7 +108,7 @@ def load_assets():
 
 # ----------------------------- Input form -----------------------------
 with st.form("customer_input_form", clear_on_submit=False):
-    st.markdown("#### 01 · Customer profile")
+    st.markdown('<div class="section-title" style="font-size: 1.05rem; margin-bottom: 0.8rem;">01 · Customer profile</div>', unsafe_allow_html=True)
     a, b, c = st.columns(3)
     with a:
         age = st.number_input("Age", min_value=18, max_value=100, value=30, step=1)
@@ -124,7 +124,7 @@ with st.form("customer_input_form", clear_on_submit=False):
         passport = st.selectbox("Has passport?", ["No", "Yes"])
 
     st.markdown("---")
-    st.markdown("#### 02 · Travel & sales interaction")
+    st.markdown('<div class="section-title" style="font-size: 1.05rem; margin-bottom: 0.8rem;">02 · Travel & sales interaction</div>', unsafe_allow_html=True)
     d, e, f = st.columns(3)
     with d:
         product = st.selectbox("Product pitched", ["Basic", "Standard", "Deluxe", "Super Deluxe", "King"])
